@@ -8,7 +8,7 @@ Fully functioning front end website. Made from React js, CSS, and HTML. Easy to 
 
 Heres my [Github Link](https://github.com/Jakobytk/Jakes-Profile/tree/main)
 
-Heres my [Live Link]()
+Heres my [Live Link](https://inspiring-peony-a6324e.netlify.app/)
 
 ## Screenshots
 
