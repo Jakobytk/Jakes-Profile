@@ -1,0 +1,18 @@
+.resume-container {
+    margin-left: 220px; 
+    color: #7c756cff;
+    font-size: larger;
+  }
+  
+  .resume-link {
+    font-size: larger;
+    color: #495155ff;
+  }
+
+  .resume-link:hover {
+    color: #cab9a6ff;
+  }
+  
+  .resume-list {
+    margin-left: 20px; 
+  }
