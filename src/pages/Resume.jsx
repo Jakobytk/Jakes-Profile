@@ -6,7 +6,7 @@ const Resume = () => {
       <h1 className="text-input">Resume</h1>
       <div className="resume-container">
       <p>Download my resume:</p>
-      <a className="resume-link" href="https://docs.google.com/document/d/10fxrxWfdU8dz-q0JVNpKZzc8JM9Cnhvgn0k_RpwO2Fw/edit" download>Download Resume</a>
+      <a className="resume-link" href="https://docs.google.com/document/d/18FHSBhsEhkH70vlDo2YdsM7hgR0-cLEYPL8BLwHz0DY/edit" download>Download Resume</a>
       
       <h2>Frontend Proficiencies:</h2>
       <ul className="resume-list">
