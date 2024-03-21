@@ -5,6 +5,8 @@ import calender from '../assets/Desktop Screenshot 2024.02.24 - 00.41.21.41.png'
 import foodie from '../assets/Foodie-forum-home.png'
 import codeQuiz from '../assets/Desktop Screenshot 2024.02.24 - 00.52.18.96.png'
 import weatherApp from '../assets/Desktop Screenshot 2023.10.30 - 22.08.55.14.png'
+import SQL from '../assets/maxresdefault.jpg'
+import CodeVerse from '../assets/Code-Verse.png'
 
 const webApps = [
   {
@@ -32,16 +34,16 @@ const webApps = [
     githubLink: 'https://github.com/andria-goodwin/foodie-forum',
   },
   {
-    name: 'Code Quiz',
-    screenshot: codeQuiz,
-    deployedLink: 'https://jakobytk.github.io/code-quiz/',
-    githubLink: 'https://github.com/Jakobytk/code-quiz',
+    name: 'Employee Tracker',
+    screenshot: SQL,
+    deployedLink: 'https://drive.google.com/file/d/1VI334eGsjTtvETqZpOIyu7kk1xlsikb5/view',
+    githubLink: 'https://github.com/Jakobytk/Employee-Tracker',
   },
   {
-    name: 'Weather App',
-    screenshot: weatherApp,
-    deployedLink: 'https://jakobytk.github.io/Weather-App/',
-    githubLink: 'https://github.com/Jakobytk/Weather-App',
+    name: 'Code Verse',
+    screenshot: CodeVerse,
+    deployedLink: 'https://pure-basin-75600-0dbeacdae42e.herokuapp.com/',
+    githubLink: 'https://github.com/Jakobytk/Code-Verse',
   },
 ];
 
