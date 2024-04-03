@@ -1,16 +1,20 @@
 import myPhoto from '../assets/ME.jpg';
 import lucaPhoto from '../assets/LUCAJOHN.jpeg';
+import lolaPhoto from '../assets/Lola-1.jpeg';
+import myFam from '../assets/family.jpg';
 
 const AboutMe = () => {
   return (
     <div className='aboutMeContainer'>
       <div className='aboutMeInfo'>
         <h1>About Me</h1>
-            <div>
+            <div className='photoAlbum'>
               <img src={myPhoto} alt="A photo of me" className="mePhoto" />
               <img src={lucaPhoto} alt="A photo of Luca" className='lucaPhoto' />
+              <img src={lolaPhoto} alt="A photo of Lola" className='lolaPhoto' />
+              <img src={myFam} alt="A photo of Maria and Luca" className='famPhoto' />
             </div>
-          <div className='aboutMeDescription'>
+          <p className='aboutMeDescription'>
           Hello! My name is Jacob Kueck, a proud resident of Kansas City, Missouri. I am a web design enthusiast with a passion for both front end and back end development. I live with my girlfriend and son, who motivate me to continually improve and expand my skill set in the world of web development.
 
           I am a proud supporter of the Chiefs, Mizzou, and Royals, as sports have always been a big part of my life. In my spare time, you can find me on the golf course, coding new projects, or immersed in the latest video games.
@@ -22,7 +26,7 @@ const AboutMe = () => {
             I spend most of my days with my family.  We recently welcomed our first son, Luca John Kueck.  Our days are filled with learning to navigate our new roles while perfecting the balance between work, school and our family.<br/>
             In my personal free time my biggest hobby is gaming.  A few years ago I began researching components to build my own personalized PC.  Over the years I've upgraded many parts including my RAM, GPU, and my power unit.  Other interests I have are playing and watching sports.  I love to golf and play basketball, as well as watch my favorite teams play such as Mizzou, the Royals, and the Chiefs<br/>
             I look forward to finishing school and starting my new venture within the coding world.  I hope to continue to learn more and be able to develop into a more experienced coder. */}
-          </div>
+          </p>
       </div>
     </div>
   );

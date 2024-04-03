@@ -66,6 +66,7 @@ button:focus-visible {
   margin: 0;
   padding: 0;
   text-align: right;
+  font-size: 20px;
 }
 
 .navbar li {
@@ -89,7 +90,8 @@ button:focus-visible {
   align-items: center;
   padding: 10px 20px; 
   color: var(--alabaster);
-  font-size: larger;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 @media (prefers-color-scheme: light) {
@@ -105,11 +107,15 @@ button:focus-visible {
   }
 }
 
+.photoAlbum {
+  display: inline-flex;
+}
+
 .mePhoto {
   max-width: 100%; 
   height: 350px;
   display: block; 
-  margin: 0 auto; 
+  margin: 0 10px 0 10px; 
   border: 5px solid var(--coffee);
   border-radius: 10px 10px 10px 10px;
 }
@@ -118,7 +124,25 @@ button:focus-visible {
   max-width: 100%; 
   height: 350px;
   display: block; 
-  margin: 0 auto; 
+  margin: 0 10px 0 10px; 
+  border: 5px solid var(--coffee);
+  border-radius: 10px 10px 10px 10px;
+}
+
+.lolaPhoto {
+  max-width: 100%; 
+  height: 350px;
+  display: block; 
+  margin: 0 10px 0 10px; 
+  border: 5px solid var(--coffee);
+  border-radius: 10px 10px 10px 10px;
+}
+
+.famPhoto {
+  max-width: 100%; 
+  height: 350px;
+  display: block; 
+  margin: 0 10px 0 10px; 
   border: 5px solid var(--coffee);
   border-radius: 10px 10px 10px 10px;
 }
@@ -139,6 +163,8 @@ button:focus-visible {
 
 .aboutMeInfo h1 {
   margin-bottom: 10px; 
+  font-family: serif, sans-serif, Arial, Helvetica;
+  font-size: 90px;
 }
 
 .aboutMeDescription {
@@ -148,6 +174,14 @@ button:focus-visible {
   text-align: left;
   font-size: large;
   background-color: var(--dun);
+}
+
+.contactMeContainer {
+  color: var(--coffee);
+  font-family: 'Times New Roman', Times, serif;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .text-input {

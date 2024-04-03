@@ -1,5 +1,7 @@
 import { useState } from 'react';
 
+import './ContactMe.css';
+
 const ContactMe = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -47,37 +49,49 @@ const ContactMe = () => {
   };
 
   return (
-    <div>
-      <h1 className='text-input'>Contact Me</h1>
-      <form onSubmit={handleSubmit}>
-        <input
-          type="text"
-          value={name}
-          onChange={handleNameChange}
-          placeholder="Name"
-          className="enter-input" 
-        />
-        {submitted && !name.trim() && <span className="error-message">{nameError}</span>}
-        <br />
-        <input
-          type="text"
-          value={email}
-          onChange={handleEmailChange}
-          placeholder="Email"
-          className="enter-input" 
-        />
-        {submitted && !email.trim() && <span className="error-message">{emailError}</span>}
-        <br />
-        <textarea
-          value={message}
-          onChange={handleMessageChange}
-          placeholder="Leave a message"
-          className="message-input" 
-        />
-        {submitted && !message.trim() && <span className="error-message">{messageError}</span>}
-        <br />
-        <button type="submit" className="submit-button">Submit</button>
-      </form>
+    // <div>
+    //   <h1 className='text-input'>Contact Me</h1>
+    //   <form onSubmit={handleSubmit}>
+    //     <input
+    //       type="text"
+    //       value={name}
+    //       onChange={handleNameChange}
+    //       placeholder="Name"
+    //       className="enter-input" 
+    //     />
+    //     {submitted && !name.trim() && <span className="error-message">{nameError}</span>}
+    //     <br />
+    //     <input
+    //       type="text"
+    //       value={email}
+    //       onChange={handleEmailChange}
+    //       placeholder="Email"
+    //       className="enter-input" 
+    //     />
+    //     {submitted && !email.trim() && <span className="error-message">{emailError}</span>}
+    //     <br />
+    //     <textarea
+    //       value={message}
+    //       onChange={handleMessageChange}
+    //       placeholder="Leave a message"
+    //       className="message-input" 
+    //     />
+    //     {submitted && !message.trim() && <span className="error-message">{messageError}</span>}
+    //     <br />
+    //     <button type="submit" className="submit-button">Submit</button>
+    //   </form>
+    // </div>
+    <div className='contactMeContainer'>
+      <h1>Contact Information</h1>
+        <div className='contactInfo'>
+          Jacob.Kueck@gmail.com<br/>
+          Work Email
+        </div>
+        <div className='contactInfo'>
+          816-277-4235<br/>
+          Cell Phone
+        </div>
+
     </div>
   );
 };
