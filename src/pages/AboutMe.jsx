@@ -1,13 +1,13 @@
 import myPhoto from '../assets/ME.jpg';
 import lucaPhoto from '../assets/LUCAJOHN.jpeg';
 import lolaPhoto from '../assets/Lola-1.jpeg';
-import myFam from '../assets/family.jpg';
+import myFam from '../assets/Family.jpg';
 
 const AboutMe = () => {
   return (
     <div className='aboutMeContainer'>
       <div className='aboutMeInfo'>
-        <h1>About Me</h1>
+        <h1>ABOUT</h1>
             <div className='photoAlbum'>
               <img src={myPhoto} alt="A photo of me" className="mePhoto" />
               <img src={lucaPhoto} alt="A photo of Luca" className='lucaPhoto' />

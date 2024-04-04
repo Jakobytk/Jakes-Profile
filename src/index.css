@@ -63,35 +63,38 @@ button:focus-visible {
 }
 .navbar {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-  text-align: right;
+  background-color: #1a1a1a;
+  text-align: center;
   font-size: 20px;
+  padding: 0 350px 0 350px;
+  border-radius: 100px;
 }
 
 .navbar li {
   display: inline-block;
-  margin-right: 20px;
+  margin: 0 20px 0 20px;
   cursor: pointer;
 }
 
-.navbar li:last-child {
-  margin-right: 0;
+.navbar li:hover {
+  color: #f9f9f9;
 }
 
 .header {
-  background-color: var(--coffee);
-  width: 100%;
+  background-color: var(--alabaster);
 }
 
 .header-content {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px; 
-  color: var(--alabaster);
+  justify-content: center;
+  margin: 20px 0px 0px 0px;
+  color: silver;
   font-size: 30px;
   font-family: 'Times New Roman', Times, serif;
+}
+
+ul {
+  padding: 0 0 0 0;
 }
 
 @media (prefers-color-scheme: light) {

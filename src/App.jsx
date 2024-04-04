@@ -19,8 +19,8 @@ const App = () => {
     switch (currentPage) {
       case 'about':
         return <AboutMe />;
-      case 'contact':
-        return <ContactMe />;
+      // case 'contact':
+      //   return <ContactMe />;
       case 'portfolio':
         return <Portfolio />;
       case 'resume':
