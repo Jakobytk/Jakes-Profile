@@ -1,7 +1,7 @@
 const Navbar = ({ onPageChange }) => {
   return (
     <nav className="navbar">
-      <ul>
+      <ul id="navbar-ul">
         <li onClick={() => onPageChange('about')}>Jacob Kueck</li>
         <li>/</li>
         {/* <li onClick={() => onPageChange('contact')}>Contact Me</li>

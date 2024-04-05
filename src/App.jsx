@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import AboutMe from './pages/AboutMe';
-import ContactMe from './pages/ContactMe';
+// import ContactMe from './pages/ContactMe';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import '@fortawesome/fontawesome-free/css/all.min.css';

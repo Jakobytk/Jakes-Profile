@@ -21,39 +21,42 @@ const webApps = [
     screenshot: passwordGen,
     deployedLink: 'https://jakobytk.github.io/Password-Gen/',
     githubLink: 'https://github.com/Jakobytk/Password-Gen',
-    description: "Introducing PassGen Plus: your ultimate password generator solution! Crafted with Java, HTML, and CSS, PassGen Plus ensures robust security by generating passwords with a combination of upper and lower case letters, symbols, and numbers. Each password is at least 8 characters long, offering maximum protection for your accounts. With PassGen Plus, you can create strong and unique passwords effortlessly, keeping your online accounts safe from unauthorized access.",
+    description: "Introducing PassGen Plus, your ultimate password generator solution! Crafted with Java, HTML, and CSS, PassGen Plus ensures robust security by generating passwords with a combination of upper and lower case letters, symbols, and numbers. Each password is at least 8 characters long, offering maximum protection for your accounts. With PassGen Plus, you can create strong and unique passwords effortlessly, keeping your online accounts safe from unauthorized access.",
   },
   {
     name: 'Work Day Calender',
     screenshot: calender,
     deployedLink: 'https://jakobytk.github.io/Work-Day-Cal/',
     githubLink: 'https://github.com/Jakobytk/Work-Day-Cal',
-    description: "Introducing WorkDay Planner: your go-to tool for efficient scheduling! Crafted with Java, CSS, and HTML, this intuitive calendar keeps you organized from 9 to 5. With built-in storage functionality, your important appointments and tasks stay securely on-site, ensuring you never miss a beat. Whether it's meetings, deadlines, or reminders, WorkDay Planner is your reliable companion for a productive day.",
+    description: "Introducing WorkDay Planner, your go-to tool for efficient scheduling! Crafted with Java, CSS, and HTML, this intuitive calendar keeps you organized from 9 to 5. With built-in storage functionality, your important appointments and tasks stay securely on-site, ensuring you never miss a beat. Whether it's meetings, deadlines, or reminders, WorkDay Planner is your reliable companion for a productive day.",
   },
   {
-    name: 'Foodie Form',
+    name: 'Foodie Forum',
     screenshot: foodie,
     deployedLink: 'https://foodie-forum-8-9cb2bc2e8559.herokuapp.com/',
     githubLink: 'https://github.com/andria-goodwin/foodie-forum',
+    description: "Introducing FoodieForum, a vibrant online hub where food enthusiasts gather to share their culinary adventures! Created with HTML, CSS, and JavaScript, FoodieForum offers a dynamic platform for users to discuss, rate, and review their favorite meals. Whether you're a gourmet chef or a passionate home cook, join the conversation, exchange recipes, and discover new flavors from around the world. With its user-friendly interface and interactive features, FoodieForum is the perfect destination for all food lovers to connect and indulge in their passion for gastronomy.",
   },
   {
     name: 'Employee Tracker',
     screenshot: SQL,
     deployedLink: 'https://drive.google.com/file/d/1VI334eGsjTtvETqZpOIyu7kk1xlsikb5/view',
     githubLink: 'https://github.com/Jakobytk/Employee-Tracker',
+    description: "Introducing Employer Tracker, your comprehensive SQL-powered solution for managing employee data with ease. Whether you're a small business or a large corporation, Employer Tracker streamlines HR processes, tracking employee information, performance evaluations, and more. With intuitive SQL queries, you can effortlessly retrieve, update, and analyze employee data, ensuring efficient workforce management. From tracking attendance to managing payroll, Employer Tracker simplifies HR tasks, empowering you to focus on your business's growth and success.",
   },
   {
     name: 'Code Verse',
     screenshot: CodeVerse,
     deployedLink: 'https://pure-basin-75600-0dbeacdae42e.herokuapp.com/',
     githubLink: 'https://github.com/Jakobytk/Code-Verse',
+    description: "Introducing CodeVerse, your ultimate online forum for code developers to collaborate, share insights, and discuss all things coding. With a sleek interface built using HTML, CSS, and JavaScript, CodeVerse provides a dynamic platform for programmers of all levels to connect and learn from each other. Whether you're a seasoned developer or just starting your coding journey, join the vibrant community at CodeVerse to explore new technologies, troubleshoot coding challenges, and exchange ideas. Dive into the endless possibilities of coding with CodeVerse today!",
   },
 ];
 
 const Portfolio = () => {
   return (
   <div>
-    <h1 className="Port-h1">Portfolio</h1>
+    <h1 className="Port-h1">PROJECTS</h1>
     <div className="portfolio-container">
       {webApps.map((app, index) => (
         <div className="web-app" key={index}>
