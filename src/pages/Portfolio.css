@@ -13,17 +13,18 @@ p {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    margin: 10px 15px 10px 15px;
+    justify-content: space-evenly;
+    margin: 10px 85px 10px 85px;
     padding: 30px 15px 30px 15px;
+    outline: 2px solid #1a1a1a;
     border-radius: 15px;
-    background-color: #644b38ff;
+    background-color: #f1f2ebff;
   }
   
   .app-image {
     width: 100%;
     max-width: 500px;
-    outline: 5px solid #cab9a6ff;
+    outline: 5px solid #1a1a1a;
     border-radius: 5px;
 
   }
@@ -34,23 +35,25 @@ p {
   }
   
   .link {
-    display: block;
+    display: flex;
     text-decoration: none;
     margin: 30px 10px 30px 30px;
     padding: 5px 20px 5px 20px;
-    border: solid 3px #f1f2ebff;
+    border: solid 2px #1a1a1a;
     border-radius: 5px 5px 5px 5px;
-    background-color: #cab9a6ff;
-    color: #644b38ff;
-    
+    background-color: #f1f2ebff;
+    color: #1a1a1a;
+    box-shadow: #1a1a1a 5px 5px 5px;
   }
   
   .link:hover {
     color: #f1f2ebff;
-    background-color: #644b38ff;
+    background-color: #1a1a1a;
   }
 
   .description {
     margin: 10px 30px 10px 30px;
-    color: #f1f2ebff;
+    color: #1a1a1a;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
   }
